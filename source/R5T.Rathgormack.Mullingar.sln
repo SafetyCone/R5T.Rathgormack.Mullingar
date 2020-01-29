@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Rathgormack.Mullingar.Construction", "R5T.Rathgormack.Mullingar.Construction\R5T.Rathgormack.Mullingar.Construction.csproj", "{00FBEC0C-3107-40AA-A59E-FA68DB3EC160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Rathgormack.Mullingar.Construction", "R5T.Rathgormack.Mullingar.Construction\R5T.Rathgormack.Mullingar.Construction.csproj", "{00FBEC0C-3107-40AA-A59E-FA68DB3EC160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Rathgormack.Mullingar", "R5T.Rathgormack.Mullingar\R5T.Rathgormack.Mullingar.csproj", "{89797ABF-6ACC-4ED6-855A-42540AFA0D46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Rathgormack.Mullingar", "R5T.Rathgormack.Mullingar\R5T.Rathgormack.Mullingar.csproj", "{89797ABF-6ACC-4ED6-855A-42540AFA0D46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Rathgormack.Mullingar.Testing", "R5T.Rathgormack.Mullingar.Testing\R5T.Rathgormack.Mullingar.Testing.csproj", "{B9D1ADB6-C01E-4ECF-A212-9DF82EFFEAB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Rathgormack.Mullingar.Testing", "R5T.Rathgormack.Mullingar.Testing\R5T.Rathgormack.Mullingar.Testing.csproj", "{B9D1ADB6-C01E-4ECF-A212-9DF82EFFEAB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{CF47D8F2-9441-476A-8BAF-C7431ACE271E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Rathgormack.Base", "..\..\R5T.Rathgormack.Base\source\R5T.Rathgormack.Base\R5T.Rathgormack.Base.csproj", "{5F26D062-C917-40C9-B0B9-598CF7F445F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Mullingar.Base", "..\..\R5T.Mullingar.Base\source\R5T.Mullingar.Base\R5T.Mullingar.Base.csproj", "{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{00FBEC0C-3107-40AA-A59E-FA68DB3EC160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +61,39 @@ Global
 		{B9D1ADB6-C01E-4ECF-A212-9DF82EFFEAB5}.Release|x64.Build.0 = Release|Any CPU
 		{B9D1ADB6-C01E-4ECF-A212-9DF82EFFEAB5}.Release|x86.ActiveCfg = Release|Any CPU
 		{B9D1ADB6-C01E-4ECF-A212-9DF82EFFEAB5}.Release|x86.Build.0 = Release|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Debug|x64.Build.0 = Debug|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Release|x64.ActiveCfg = Release|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Release|x64.Build.0 = Release|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5}.Release|x86.Build.0 = Release|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Debug|x64.Build.0 = Debug|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Debug|x86.Build.0 = Debug|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Release|x64.ActiveCfg = Release|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Release|x64.Build.0 = Release|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Release|x86.ActiveCfg = Release|Any CPU
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F26D062-C917-40C9-B0B9-598CF7F445F5} = {CF47D8F2-9441-476A-8BAF-C7431ACE271E}
+		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C} = {CF47D8F2-9441-476A-8BAF-C7431ACE271E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {442B2B54-E970-4C2F-99FE-DAB992855FE7}
 	EndGlobalSection
 EndGlobal
