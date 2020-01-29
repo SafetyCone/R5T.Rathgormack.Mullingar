@@ -11,7 +11,7 @@ namespace R5T.Rathgormack.Mullingar
 {
     public static class IServiceCollectionExtensions
     {
-        public static IServiceCollection AddHelloWorldMessenger(this IServiceCollection services,
+        public static IServiceCollection AddMullingarHelloWorldMessenger(this IServiceCollection services,
             ServiceAction<IHelloWorldMessageProvider> addHelloWorldMessageProvider)
         {
             services
