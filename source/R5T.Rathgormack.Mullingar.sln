@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Rathgormack.Base", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Mullingar.Base", "..\..\R5T.Mullingar.Base\source\R5T.Mullingar.Base\R5T.Mullingar.Base.csproj", "{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia.Extensions", "..\..\R5T.Dacia.Extensions\source\R5T.Dacia.Extensions\R5T.Dacia.Extensions.csproj", "{64615B14-0C88-41B6-BE49-3563D9643661}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia", "..\..\R5T.Dacia\source\R5T.Dacia\R5T.Dacia.csproj", "{3DABC928-7C79-4382-807D-950E8B2DF26D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +89,30 @@ Global
 		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Release|x64.Build.0 = Release|Any CPU
 		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Release|x86.ActiveCfg = Release|Any CPU
 		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C}.Release|x86.Build.0 = Release|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Debug|x64.Build.0 = Debug|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Debug|x86.Build.0 = Debug|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Release|x64.ActiveCfg = Release|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Release|x64.Build.0 = Release|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Release|x86.ActiveCfg = Release|Any CPU
+		{64615B14-0C88-41B6-BE49-3563D9643661}.Release|x86.Build.0 = Release|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Debug|x64.Build.0 = Debug|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Debug|x86.Build.0 = Debug|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Release|x64.ActiveCfg = Release|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Release|x64.Build.0 = Release|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Release|x86.ActiveCfg = Release|Any CPU
+		{3DABC928-7C79-4382-807D-950E8B2DF26D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +120,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5F26D062-C917-40C9-B0B9-598CF7F445F5} = {CF47D8F2-9441-476A-8BAF-C7431ACE271E}
 		{A06CE522-DEB0-43F2-BDF9-C39078ADA42C} = {CF47D8F2-9441-476A-8BAF-C7431ACE271E}
+		{64615B14-0C88-41B6-BE49-3563D9643661} = {CF47D8F2-9441-476A-8BAF-C7431ACE271E}
+		{3DABC928-7C79-4382-807D-950E8B2DF26D} = {CF47D8F2-9441-476A-8BAF-C7431ACE271E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {442B2B54-E970-4C2F-99FE-DAB992855FE7}
