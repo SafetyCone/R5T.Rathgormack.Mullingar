@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using R5T.Mullingar;
+using R5T.Mullingar;using R5T.T0064;
 
 
 namespace R5T.Rathgormack.Mullingar
-{
-    public class HelloWorldMessenger : IHelloWorldMessenger
+{[ServiceImplementationMarker]
+    public class HelloWorldMessenger : IHelloWorldMessenger,IServiceImplementation
     {
         private IHelloWorldMessageProvider HelloWorldMessageProvider { get; }
 

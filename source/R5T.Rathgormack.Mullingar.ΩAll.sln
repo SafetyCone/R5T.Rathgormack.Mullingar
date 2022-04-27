@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Rathgormack.Mullingar.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Rathgormack.Mullingar.Testing", "R5T.Rathgormack.Mullingar.Testing\R5T.Rathgormack.Mullingar.Testing.csproj", "{13BF4D30-FAEB-4D57-B672-9E4943BB837B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{C8AF31F6-7529-4FDB-A486-EB25E7D83B35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{17B17230-76FD-4AFC-8089-7ADCE795A214}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{13BF4D30-FAEB-4D57-B672-9E4943BB837B}.Release|x64.Build.0 = Release|Any CPU
 		{13BF4D30-FAEB-4D57-B672-9E4943BB837B}.Release|x86.ActiveCfg = Release|Any CPU
 		{13BF4D30-FAEB-4D57-B672-9E4943BB837B}.Release|x86.Build.0 = Release|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Debug|x64.Build.0 = Debug|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Debug|x86.Build.0 = Debug|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Release|x64.ActiveCfg = Release|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Release|x64.Build.0 = Release|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Release|x86.ActiveCfg = Release|Any CPU
+		{17B17230-76FD-4AFC-8089-7ADCE795A214}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17B17230-76FD-4AFC-8089-7ADCE795A214} = {C8AF31F6-7529-4FDB-A486-EB25E7D83B35}
 	EndGlobalSection
 EndGlobal
